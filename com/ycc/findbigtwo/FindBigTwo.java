@@ -1,5 +1,5 @@
 package com.ycc.findbigtwo;
-
+//Find two biggest number in an array 
 public class FindBigTwo {
 	public static int [] findTwoNumber(int [] a){
 		int max = a[0];

@@ -1,7 +1,7 @@
 package com.ycc.mergesortlinkedlist;
 
 
-
+//Merge two sorted linked list into one linked list
 public class MergeSortedLinkedList {
 
 	/**

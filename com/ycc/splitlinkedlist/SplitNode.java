@@ -1,5 +1,5 @@
 package com.ycc.splitlinkedlist;
-
+//Split the linked list into two linked list
 public class SplitNode {
 
 	/**

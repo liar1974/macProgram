@@ -1,5 +1,5 @@
 package com.ycc.permutationstringrecur;
-
+//Permutation of string. It works for duplicate char array
 public class PermuteStringRec {
 
 	/**

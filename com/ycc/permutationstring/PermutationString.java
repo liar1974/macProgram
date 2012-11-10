@@ -35,7 +35,7 @@ public class PermutationString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList <String> resultPermutation;
-		resultPermutation = PermutationString.storePermutation("123");
+		resultPermutation = PermutationString.storePermutation("121");
 		
 		for(int i = 0; i < resultPermutation.size(); i++)
 			System.out.print("("+resultPermutation.get(i)+")");

@@ -1,5 +1,5 @@
 package com.ycc.sortcolor;
-
+//sort three basic color RGBGGRB into RRGGGBB by O(n)
 public class SortColor {
 
 	/**

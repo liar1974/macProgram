@@ -1,6 +1,6 @@
 package com.ycc.findOccuranceNumber;
 import java.util.*;
-
+//By hash table to find the occurance number
 public class FindOccuranceNumberAnotherMethod {
 
 	/**

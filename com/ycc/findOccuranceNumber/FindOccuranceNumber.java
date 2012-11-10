@@ -1,5 +1,5 @@
 package com.ycc.findOccuranceNumber;
-
+//Find the occurance of target number in array number by binary search
 public class FindOccuranceNumber {
 
 	/**

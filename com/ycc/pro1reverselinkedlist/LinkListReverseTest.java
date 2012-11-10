@@ -1,5 +1,5 @@
 package com.ycc.pro1reverselinkedlist;
-
+//reverse linked list by recursive and iterative method
 public class LinkListReverseTest {
 
 	/**

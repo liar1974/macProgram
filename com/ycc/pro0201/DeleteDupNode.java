@@ -1,5 +1,5 @@
 package com.ycc.pro0201;
-
+//Delete duplicate value in the linked list by hashmap and regular method
 import java.util.*;
 
 public class DeleteDupNode {

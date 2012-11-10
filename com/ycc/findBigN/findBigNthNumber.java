@@ -1,5 +1,5 @@
 package com.ycc.findBigN;
-
+// Find the Nth big number in an array by O(n)
 public class findBigNthNumber {
 
 	/**

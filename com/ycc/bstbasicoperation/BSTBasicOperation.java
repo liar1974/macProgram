@@ -1,10 +1,11 @@
 package com.ycc.bstbasicoperation;
-
+// basic operation for binary search tree
 public class BSTBasicOperation {
 
 	/**
 	 * @param args
 	 */
+	//Find the min node of the BST
 	public static TreeNode findMin(TreeNode root){
 		if(root == null)
 			return null;
@@ -12,7 +13,7 @@ public class BSTBasicOperation {
 			return root;
 		return findMin(root.left);
 	}
-	
+	//Find the max node of the BST
 	public static TreeNode findMax(TreeNode root){
 		if(root == null)
 			return null;
@@ -20,7 +21,7 @@ public class BSTBasicOperation {
 			return root;
 		return findMax(root.right);
 	}
-	
+	//Insert node to the BST by iterative
 	public static void insert(TreeNode root, int node){
 		TreeNode newNode = new TreeNode(node);
 		if(root == null){
@@ -46,6 +47,7 @@ public class BSTBasicOperation {
 			}
 		}
 	}
+	//Insert the node to the BST by recursive
 	public static TreeNode insertRec(TreeNode root, int node){
 		if(root == null)
 			return new TreeNode(node);
@@ -57,6 +59,7 @@ public class BSTBasicOperation {
 			;
         return root;
 	}
+	//Tree inorder traverse
 	public static void inOrder(TreeNode root){
 		if(root == null)
 			return;
@@ -64,7 +67,7 @@ public class BSTBasicOperation {
 		System.out.print(root.data+"->");
 		inOrder(root.right);
 	}
-	
+	//Remove the node by recursive
 	public static TreeNode remove(int x, TreeNode t) {
 		if(t == null)
 			return null;

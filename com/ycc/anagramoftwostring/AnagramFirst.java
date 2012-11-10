@@ -1,5 +1,5 @@
 package com.ycc.anagramoftwostring;
-//Check whether two strings are anagram
+//Check whether two strings are anagram using Arrays.sort
 import java.util.Arrays;
 
 public class AnagramFirst {

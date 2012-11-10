@@ -1,7 +1,7 @@
 package com.ycc.checkbst;
 
 //import java.util.ArrayList;
-
+//Check whether a binary tree is BST by recursive method
 public class CheckBST {
 
 	/**

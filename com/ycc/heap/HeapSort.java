@@ -1,5 +1,5 @@
 package com.ycc.heap;
-
+//Heap sort
 import java.util.Comparator; 
 public class HeapSort {
 	public static int parent(int i){

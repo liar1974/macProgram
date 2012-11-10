@@ -1,5 +1,5 @@
 package com.ycc.printparenthesis;
-
+//Print all combination of parenthesis
 public class PrintParenthesis {
 	public static void printCombination(int leftParenthesis, int rightParenthesis, String outputCombination){
 		if(rightParenthesis == 0){
