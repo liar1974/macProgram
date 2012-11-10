@@ -1,5 +1,5 @@
 package com.ycc.printpair;
-
+//Print the pairs whose sum is target number
 public class PrintAllPairsSumToM {
 
 	/**
